@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="80px" height="80px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter x="2136px" y="1934px" width="80px" height="80px" filterUnits="userSpaceOnUse" id="filter554">
+    <filter x="2136px" y="1934px" width="80px" height="80px" filterUnits="userSpaceOnUse" id="filter20">
       <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
       <feGaussianBlur stdDeviation="10" in="shadowOffsetInner" result="shadowGaussian" />
       <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
       <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.349019607843137 0  " in="shadowComposite" />
     </filter>
-    <g id="widget555">
+    <g id="widget21">
       <path d="M 2176 1954  C 2187.2 1954  2196 1962.8  2196 1974  C 2196 1985.2  2187.2 1994  2176 1994  C 2164.8 1994  2156 1985.2  2156 1974  C 2156 1962.8  2164.8 1954  2176 1954  Z " fill-rule="nonzero" fill="#f59a23" stroke="none" />
       <path d="M 2176 1954.5  C 2186.92 1954.5  2195.5 1963.08  2195.5 1974  C 2195.5 1984.92  2186.92 1993.5  2176 1993.5  C 2165.08 1993.5  2156.5 1984.92  2156.5 1974  C 2156.5 1963.08  2165.08 1954.5  2176 1954.5  Z " stroke-width="1" stroke="#ffffff" fill="none" />
     </g>
   </defs>
   <g transform="matrix(1 0 0 1 -2136 -1934 )">
-    <use xlink:href="#widget555" filter="url(#filter554)" />
-    <use xlink:href="#widget555" />
+    <use xlink:href="#widget21" filter="url(#filter20)" />
+    <use xlink:href="#widget21" />
   </g>
 </svg>
